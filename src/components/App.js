@@ -18,6 +18,6 @@ const App = () => {
     <button onClick={onClick}>Click me</button>
     </div>
   );
-};
+
 
 export default App;
