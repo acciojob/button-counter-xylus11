@@ -6,18 +6,14 @@ const App = () => {
 
   const onClick = () => {
     setCount(count + 1);
-    }
   };
-
-
 
   return (
     <div>
-
-  <p>Button clicked {count} times</p>
-    <button onClick={onClick}>Click me</button>
+      <p>Button clicked {count} times</p>
+      <button onClick={onClick}>Click me</button>
     </div>
   );
-
+};
 
 export default App;
